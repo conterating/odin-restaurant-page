@@ -12,6 +12,6 @@ export default function () {
   homeImage.style.width = "300px";
   homeImage.style.height = "300px";
 
-  const homeDiv = document.querySelector("#content");
-  homeDiv.append(homeHeader, homeText, homeImage);
+  const contentDiv = document.querySelector("#content");
+  contentDiv.append(homeHeader, homeText, homeImage);
 }
