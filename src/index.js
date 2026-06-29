@@ -1,1 +1,3 @@
-console.log("this is working!!!");
+import initialPageLoad from "./home.js";
+
+initialPageLoad();
